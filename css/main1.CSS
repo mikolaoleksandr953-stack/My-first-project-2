@@ -1,0 +1,87 @@
+/* Скидання стандартних відступів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+}
+
+/* Шапка */
+header {
+    background: linear-gradient(90deg, #e10600, #000);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #fff;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+/* Основний контент */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Заголовки */
+h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e10600;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* Відео */
+.video-container {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.video-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 30px rgba(255, 0, 0, 0.5);
+}
+
+/* Аудіо блок */
+.audio-section {
+    margin-top: 40px;
+    background: #222;
+    color: #fff;
+}
+
+/* Аудіо плеєр */
+audio {
+    margin-top: 10px;
+}
+
+/* Футер */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    background: #000;
+    border-top: 3px solid #e10600;
+    font-size: 14px;
+}
+
+/* Адаптивність */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}

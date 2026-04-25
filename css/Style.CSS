@@ -1,0 +1,54 @@
+body {
+    background-color: #111; /* чорний фон */
+    color: white;           /* білий текст */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: red;  /* червоне меню */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;           /* білий текст посилань */
+    text-decoration: none;
+    margin: 10px;           /* відстань між посиланнями */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;          /* при наведенні жовтий колір */
+}
+
+/* Другорядні категорії */
+.subcategories {
+    background-color: #222; /* темний фон блоку */
+    border: 1px solid red;  /* червона рамка */
+    width: 250px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.subcategories h3 {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subcategories ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.subcategories a {
+    color: white;
+    text-decoration: none;
+}
+
+.subcategories a:hover {
+    color: yellow;
+}
